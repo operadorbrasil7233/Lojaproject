@@ -1,35 +1,36 @@
+
 <?PHP
 header('Access-Control-Allow-Origin: *');
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
    <head>
-      <!--Criado por Vanrley Macedo-->
       <link rel="icon" href="/slide2.png"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
-      <meta name="description" content="Sua Loja de Apps Online">
-      <meta property="og:image:secure_url" content="https://thumbs.dreamstime.com/b/%C3%ADcones-da-loja-de-aplicativos-do-google-play-aplica%C3%A7%C3%B5es-cheios-vetor-simples-pictograma-s%C3%B3lido-log%C3%B3tipo-isolado-em-fundo-159029210.jpg">
-      <meta property="og:image" content="https://thumbs.dreamstime.com/b/%C3%ADcones-da-loja-de-aplicativos-do-google-play-aplica%C3%A7%C3%B5es-cheios-vetor-simples-pictograma-s%C3%B3lido-log%C3%B3tipo-isolado-em-fundo-159029210.jpg" />
+      <meta name="description" content="Sua Loja de Apps ">
       <meta name="author" content="Vn Tecnologia LTDA">
-	  <link rel='canonical' href='index.html' />
+      <meta property="og:image" content="https://i.pinimg.com/originals/cc/d5/e8/ccd5e808abf6a31a30663f8a0f50a8b6.png" />
+      <meta property="og:image:secure_url" content="https://i.pinimg.com/originals/cc/d5/e8/ccd5e808abf6a31a30663f8a0f50a8b6.png">
+  
+	  <link rel='canonical' href='https://vanrley.netlify.app/' />
       
       <link rel="stylesheet" href="assets/css/animate.css">
       <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/super-classes.css">
       <link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <link rel="preload" href="assets/css/mobile.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	   <link rel="apple-touch-icon" sizes="180x180" href="assets/image/slide2.png">
+	   <link rel="apple-touch-icon" sizes="180x180" href="/seusapps.netlify.app/assets/image/slide2.png">
 	    <noscript>
         <link rel="stylesheet" href="assets/css/style.css">
         </noscript>
 	    <noscript>
         <link rel="stylesheet" href="assets/css/mobile.css">
     </noscript>
-      <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/%40fortawesome/fontawesome-free%406.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-      <script src="../kit.fontawesome.com/c5bf40b83f.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/c5bf40b83f.js" crossorigin="anonymous"></script>
 
-      <title>Sua Loja de Apps</title>
+      <title>Loja de Apps</title>
    </head>
    <body>
       <!---header-and-banner-section-->
@@ -41,9 +42,9 @@ header('Access-Control-Allow-Origin: *');
             <div class="service-inner-con position-relative">
                <div class="generic-title text-center">
                   <figure class="">
-                     <img src="../vnseusapps.netlify.app/templates/lagom2/assets/img/logo/logo.png" width="90px" height="90px" alt="BTV Play - logo" class="img-fluid">
+                     <img src="/vnseusapps.netlify.app/templates/lagom2/assets/img/logo/logo.png" width="90px" height="90px" alt="BTV Play - logo" class="img-fluid">
                   </figure>
-                  <h1 class="mb-0" style="font-size:40px;">Loja de Apps Vntecnologia 📺</h1><br>
+                  <h1 class="mb-0" style="font-size:40px;">Loja de Apps Vn Tecnologia 📺</h1><br>
                   <h2 style="font-size:20px;">Todos os aplicativos oficiais estão disponiveis abaixo, escolha a plataforma.</h2>
                </div>
                <div class="service-box wow fadeInUp">
@@ -56,7 +57,7 @@ header('Access-Control-Allow-Origin: *');
                            <div class="service-box-item-content">
                               <h3>Android & TV Box</h3>
                               <p>Escolha a melhor versão para seu aparelho Android ou TV Box.</p>
-                              <a href="#">Download App</a>
+                              <a href="#"a-toggle="modal" data-target="#Ui-Design">Download App</a>
                            </div>
                         </div>
                      </div>
@@ -122,7 +123,7 @@ header('Access-Control-Allow-Origin: *');
                            <div class="service-box-item-content">
                               <h3>Roku TV</h3>
                               <p>Veja como instalar o aplicativo na sua TV Smart Roku</p>
-                              <a href="#">Ver Mais</a>
+                              <a href="#">Download App</a>
                            </div>
                         </div>
                      </div>
@@ -148,7 +149,8 @@ header('Access-Control-Allow-Origin: *');
                            </figure>
                            <div class="service-box-item-content">
                               <h3>Chrome Cast</h3>
-                              <p>Download App</a>
+                              <p>Instale diretamente no aparelho do Google. Também é possível espelhar na TV.</p>
+                              <a href="#">Download app</a>
                            </div>
                         </div>
                      </div>
@@ -197,25 +199,28 @@ header('Access-Control-Allow-Origin: *');
                <figure class="">
                   <img width="100px" height="43px" src="assets/image/slide2.png" alt="btvplay-footer" class="img-fluid">
                </figure>
-               
+               <div class="footer-navbar">
+                  <ul class="list-unstyled">
+                     <li class="d-inline-block border-left-0 pl-0"><a href="#">Android & TvBox</a></li>
+                     <li class="d-inline-block"><a href="#">iPhone & iOS</a></li>
+                     <li class="d-inline-block"><a href="#">Smart TV</a></li>
+                     <li class="d-inline-block"><a href="#">Windows</a></li>
+                     <li class="d-inline-block"><a href="#">Roku TV</a></li>
+                     <li class="d-inline-block"><a href="#">Web Player</a></li>
+                     <li class="d-inline-block"><a href="#">FireTV Stick</a></li>
+                     <li class="d-inline-block"><a href="#">Chrome Cast</a></li>
+                     <li class="d-inline-block"><a href="#">Xbox</a></li>
+                     <li class="d-inline-block"><a href="#">Playstation</a></li>
+                  </ul>
+               </div>
                <br>
             </div>
             <div class="copy-right-content text-center">
-               <p class="mb-0">&copy;Vn Tecnologia-<script>document.write(new Date().getFullYear())</script> Todos os direitos reservados</p></p>
+               <p class="mb-0">&copy; Vn Tecnologia-<script>document.write(new Date().getFullYear())</script> Todos os direitos reservados</p></p>
             </div>
          </div>
       </div>
-    
-            
-</div>
-
-
-               </div>
-            </div>
-      </div>
-      </div>
-     
-
+      
 
       <!-- weight footer section -->
       <script src="assets/js/wow.js"></script>
@@ -371,8 +376,8 @@ link.addEventListener('click', function() {
 
      <script>
       function downloadImage() {
-        source = 'assets/image/cv-img.html';
-      const fileName = 'test-image.html';
+        source = 'assets/image/cv-img.png';
+      const fileName = 'test-image.png';
       var el = document.createElement("a");
       el.setAttribute("href", source);
       el.setAttribute("download", fileName);
